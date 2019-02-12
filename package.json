@@ -1,0 +1,41 @@
+{
+  "name": "new-angularjs-app",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=development",
+    "build:prod": "webpack --mode=production"
+  },
+  "keywords": [],
+  "author": "Development Team",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@types/angular": "^1.6.54",
+    "@types/angular-mocks": "^1.7.0",
+    "@types/core-js": "^2.5.0",
+    "@types/jasmine": "^3.3.8",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "eslint": "^5.13.0",
+    "eslint-loader": "^2.1.2",
+    "html-webpack-plugin": "^3.2.0",
+    "ng-annotate-loader": "^0.6.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "tslint": "^5.12.1",
+    "tslint-loader": "^3.5.4",
+    "typescript": "^3.3.3",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.22",
+    "angular": "^1.5.8"
+  }
+}
